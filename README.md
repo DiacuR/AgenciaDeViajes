@@ -1,2 +1,2 @@
 # AgenciaDeViajes
-Proyecto final para curso de front-end en Coderhouse
+## Proyecto final para curso de Desarrollo Web en Coderhouse
