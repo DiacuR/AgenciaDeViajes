@@ -142,11 +142,6 @@ footer {
 	height: 225px;
 }
 
-.header__inicio__redes li,
-.footer__redes li {
-	display: inline;
-}
-
 .header__navegacion ul {
 	display: flex;
 	background-color: black;
@@ -178,8 +173,15 @@ footer {
 	margin-bottom: 5rem;
 }
 
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .galeria img {
 	height: 33rem;
+	width: 90%;
 }
 
 .nosotros-contenido {
