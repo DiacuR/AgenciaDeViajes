@@ -2,14 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-html {
-	font-family: "Work Sans", sans-serif;
-}
-
 body {
 	background: url(../images/back-ground-img_3.jpg) no-repeat center bottom;
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: "Work Sans", sans-serif;
 }
 
 img {
@@ -75,6 +72,10 @@ footer {
 	border-top: 1px solid white;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+}
+
+.carousel img {
+	height: 80vh;
 }
 
 .contenedor {
