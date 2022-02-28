@@ -49,12 +49,12 @@
 			</nav>
 		</header>
 		<div class="dark-shade">
-			<main>
+			<main class="container">
 				<div
 					id="carouselExampleSlidesOnly"
 					class="carousel slide mb-5"
 					data-bs-ride="carousel"
-					data-interval="5000"
+					data-bs-interval="5000"
 				>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -86,7 +86,7 @@
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
-				<section class="contenedor borde-sup">
+				<section class="border-top border-white py-5">
 					<h2>Nosotros</h2>
 					<p class="nosotros-contenido">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam harum
@@ -98,10 +98,10 @@
 						corrupti a quam temporibus officia iure eveniet?
 					</p>
 				</section>
-				<section class="populares contenedor borde-sup">
+				<section class="populares border-top border-white py-5">
 					<h2>Populares</h2>
-					<div class="populares__contenedor__img">
-						<div class="vertical-card">
+					<div class="populares__imgs row justify-content-around">
+						<div class="vertical-card col-12 col-md-3">
 							<a href="">
 								<img
 									class="populares__img"
@@ -115,7 +115,7 @@
 							</p>
 							<span>$5.000</span>
 						</div>
-						<div class="vertical-card">
+						<div class="vertical-card col-12 col-md-3">
 							<a href="">
 								<img
 									class="populares__img"
@@ -131,7 +131,7 @@
 							</p>
 							<span>$16.000</span>
 						</div>
-						<div class="vertical-card">
+						<div class="vertical-card col-12 col-md-3">
 							<a href="">
 								<img
 									class="populares__img"
@@ -148,55 +148,63 @@
 						</div>
 					</div>
 				</section>
-				<section class="newsletter contenedor borde-inf borde-sup">
+				<section
+					class="newsletter border-top border-bottom border-white py-5 mb-5"
+				>
 					<h2>Newsletter</h2>
 					<input type="email" name="" id="" placeholder="Ingrese su Email..." />
 					<button>Suscribirse</button>
 				</section>
 			</main>
 
-			<footer>
-				<div class="footer-contenedores footer__direccion">
-					<h3>Direccion</h3>
-					<div>
-						<iframe
-							width="100%"
-							height="200"
-							frameborder="0"
-							scrolling="no"
-							marginheight="0"
-							marginwidth="0"
-							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-						>
-						</iframe>
+			<footer class="container-fluid border-top border-white">
+				<div class="row w-100 justify-content-around ms-0">
+					<div class="col-md-4 footer__direccion mb-3-md">
+						<h3>Direccion</h3>
+						<div>
+							<iframe
+								width="100%"
+								height="200"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0"
+								src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+							>
+							</iframe>
+						</div>
 					</div>
-				</div>
-				<div class="footer-contenedores footer__contacto">
-					<h3>Contacto</h3>
-					<span>Telefono: xx-xxxx-xxxx-xxxx</span>
-					<span>Email: xxxxx@xxxxx.xxxx</span>
-				</div>
-				<div class="footer-contenedores footer__redes">
-					<h3>Redes</h3>
-					<div>
-						<a href="">
-							<img
-								class="iconoRedes"
-								src="images/facebook.png"
-								alt="Facebook"
-							/>
-						</a>
+					<div class="col-md-4 footer__contacto mb-5">
+						<h3 class="mb-5">Contacto</h3>
+						<span>Telefono: xx-xxxx-xxxx-xxxx</span>
+						<span>Email: xxxxx@xxxxx.xxxx</span>
+					</div>
+					<div class="col-md-4 footer__redes mb-5">
+						<h3 class="mb-5">Redes</h3>
+						<div>
+							<a href="">
+								<img
+									class="iconoRedes"
+									src="images/facebook.png"
+									alt="Facebook"
+								/>
+							</a>
 
-						<a href="">
-							<img
-								class="iconoRedes"
-								src="images/instagram.png"
-								alt="Instagram"
-							/>
-						</a>
-						<a href="">
-							<img class="iconoRedes" src="images/youtube.png" alt="YouTube" />
-						</a>
+							<a href="">
+								<img
+									class="iconoRedes"
+									src="images/instagram.png"
+									alt="Instagram"
+								/>
+							</a>
+							<a href="">
+								<img
+									class="iconoRedes"
+									src="images/youtube.png"
+									alt="YouTube"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</footer>
